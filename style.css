@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik Bubbles;
+}
+.container{
+    background-image:  url("./asset/bg-img.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.8;
+}
+
+.clock-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    height: 400px;
+    width: 360px;
+    background-color: #F18B30;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+h1{
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 35px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+    background-color: #383634;
+}
+.video{
+    border-radius: 40%;
+    margin: 0.5rem;
+}
+.timeBar{
+    text-align: center;
+    font-size: 32px;
+    color: aliceblue;
+}
