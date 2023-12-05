@@ -3,5 +3,5 @@
         setInterval(function () {
             let date = new Date();
             timeBar.innerText = date.toLocaleString();
-             console.log(timeBar.innerHTML);
+             // console.log(timeBar.innerHTML);
         },1000)
